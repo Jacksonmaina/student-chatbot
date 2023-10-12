@@ -1,0 +1,197 @@
+version: "3.1"
+
+intents:
+  - Greetings
+  - Courses
+  - learning_mode
+  - curriculum
+  - placementsupport
+  - Requirements
+  - application
+  - Duration
+  - Deferment
+  - intake
+  - cost
+  - admission
+  - scholarship
+  - Location
+  - courseWork
+  - Accommodation
+  - career_opportunities
+  - goodbye
+  - bot_challenge
+  - hardware_requirement
+  - capstone_project
+  - admission_timelines
+  - data_science
+  - transport
+  - outofscope
+  - payment_mode
+  
+
+responses:
+
+  utter_Greetings:
+  - text: "Hey! Welcome To MingoBot. Moringa's conversational AI.
+      You Can ask me anything pertaining Data Science, be it in
+        1.Admission guidelines
+        2.Scholarships
+        3..Installment Options
+        4..Learning modes Part-time and full time."
+
+  utter_admission:
+  - text: "We would be delighted to assist you with your application.to get started please visit our official 
+     website and filling out the online application form.     
+     https://moringaschool.com/courses/data-science-course/
+     https://moringaschool.com/courses/data-science-full-time-hybrid/
+     https://moringaschool.com/courses/data-science-course-part-time/  If you have any questions or 
+     need help along the way,do not hesitate to reach out. 
+     We are here to support you on your journey to joining Moringa"
+
+  utter_admission_timelines:
+  - text: "For further details visit - https://moringaschool.com/apply/data-science-part-time/to apply,you can contact
+      our admissions office on 0712293878/0741493565 or email admissions@moringaschool.com"
+
+  utter_payment_mode:
+  - text: "you can pay to below account number"
+
+  utter_Courses:
+  - text: " In our data science program, you will find a rich and diverse curriculum that covers
+      a wide range of topics essential to becoming a proficient data scientist. 
+      The program typically comprises multiple modules, each focusing on specific aspects of data science. 
+      You will delve into data analysis techniques, programming languages like Python and data base 
+      managemnt systems like SQL, machine learning algorithms, statistical methods, 
+      and data visualization tools. Students also get exposure to database systems, 
+      big data technologies, and advanced topics such as natural language processing,
+      The Data Science course entails six phases of study,
+      Our courses typically include a mix of lectures, labs, and assignments to provide a well-roundedlearning experience.
+      Please follow the link to view our detailed brochure
+      https://moringaschool.com/wp-content/uploads/2021/08/Data-science-WEB.pdf"
+
+
+  utter_learning_mode:
+  - text: "Moringa school offers flexible learning modes, including part-time courses, 
+      full-time hybrid, and full-time online options.
+      - Data Science Full-time Hybrid: In-person & Online | Mon to Fri from 8am to 5pm.
+      - Data Science Part-time: Live & Online | Mon to Fri from 6pm to 9pm | Saturdays from 9am to 6pm.
+      For more information, please visit the following links:
+      - [Data Science Course](https://moringaschool.com/courses/data-science-course/)
+      - [Data Science Full-time Hybrid](https://moringaschool.com/courses/data-science-full-time-hybrid/)
+      - [Data Science Part-time](https://moringaschool.com/courses/data-science-course-part-time/)"
+
+
+  utter_curriculum:
+  - text: "Moringa School’s remote classes are done live and online; with daily sessions where learners ask questions and interact with tutors and fellow students,Moringa School is registered in Kenya by the Technical & Vocational Education and Training Authority(TVETA). However, we DO NOT offer academic qualifications that can be exchanged for credits in our local colleges and universities. We are in the process of working with TVETA to have our training standards certified which means that we will become the to-go-to when it comes to tech training standards in Kenya. Additionally, we encourage and assist our students to build their portfolios which is a better marketing tool e.g in a course like Software Development which involves coming up with independent projects that build up technical skills."
+
+  utter_career_opportunities:
+  - text: "Today's data science landscape is thriving across all sectors actively recruiting 
+       data scientists. Career opportunities range from data analyst positions to specialized
+       roles like machine learning engineer or even managerial positions.
+       Data scientist salaries are competitive, varying by experience and location, but with tech hubs and major companies leading the way in hiring. At the core, data scientists are tasked with
+       deriving actionable insights from vast datasets, making them invaluable assets in today's 
+       data-driven world "
+
+
+  utter_data_science:
+  - text: "Data science is a multidisciplinary field that employs various methods to extract insights 
+      from diverse types of data. It involves processes such as data collection, cleaning, machine learning,
+      and data visualization to make informed decisions across various industries."
+
+
+
+  utter_placementsupport:
+  - text: "What we guarantee is career-ready skills. Our courses are practical and relevant to the market. That is why many of our graduates find jobs. Moringa School offers support through training and informing graduates of job opportunities. Graduates then apply and some get these jobs. Other graduates have found jobs without our direct support while others have ventured into freelancing and entrepreneurship. Moringa School is proud to have helped all these brilliant young people achieve their career goals."
+
+  utter_Requirements:
+  - text: "All applicants need to meet the criteria outlined below to gain admission and succeed in the 25-week program:
+        - All applicants must be 18 years and above and provide proof of ID/Passport.
+        - Basic understanding in math and statistics concepts. 
+        - Have a university/college education (ongoing students or graduates are more likely to join).
+        - All applicants are required to complete the application process by taking a technical assessment test and pass.
+        - Have a laptop with the following specs (core i5 upwards, 8GB RAM, 500GB upwards of storage).
+        - Have stable internet access.
+        - We require all our students to have gone through high school as is required by law (TVET) 
+          and should be computer proficient
+        - All applicants are required to complete a technical assessment test and pass
+          Please follow the link below for more details on the Data Science Course prerequisites:
+          [Data Science Course Prerequisites](https://moringaschool.com/courses/data-science-course/)."
+
+  utter_hardware_requirement:
+  - text: "For hardware requirements, a laptop in good condition is required with the following specs 
+      (core i5 upwards, 8GB RAM, 500GB upwards of storage).
+      For successful undertaking of the studies, a laptop is required with the following specs 
+      (core i5 upwards, 8GB RAM, 500GB upwards of storage)."
+
+
+  utter_application:
+  - text: "Use the link below for more information about the data science course.
+      https://moringaschool.com/courses/data-science-course/
+      https://moringaschool.com/courses/data-science-full-time-hybrid/
+      https://moringaschool.com/courses/data-science-course-part-time."
+
+  utter_Deferment:
+  - text: "Deferment is a temporary pause on your fee payments, and may be available 
+      on a case-by-case basis for students who are unable to continue their studies due to financial 
+      hardship, medical reasons, or other extenuating circumstances. It is available to students 
+      on a case-by-case basis, and there may be cost implications. To request a deferment, 
+      please contact Moringa administrator through 020 764 3533."
+
+  utter_intake:
+  - text: "For further details visit - https://moringaschool.com/apply/data-science-part-time/to apply,you can contact our admissions office on 0712293878/0741493565 or email admissions@moringaschool.com"
+
+  utter_transport:
+  - text: "The school does not offer transportation services, but there are public transport and private options available for you to reach the school." 
+
+  utter_Duration:
+  - text: "Moringa offers flexible learning schedules that includes-
+        1.The Full time Data Science course, which is an in-person program that takes 25 weeks.
+        2.The Full time Hybrid Data Science course, which is a combination of oth in-person and virtual learning and takes 25 weeks
+        3.Data Science Part-time course which is virtual and takes 35 weeks"
+
+
+  utter_cost:
+  - text: "Data Science Fulltime costs-Ksh.174,000 and the Data Science Part time course costs- Ksh.200,000.
+      Installment options are available, whereby you can pay upto a maximum of 4 equal installments. 
+      A minimum deposit of 10% of the total cost is required to be paid to book for admission. 
+      For more details, contact our admission team via the number - 020 7643 533"
+
+
+
+  utter_scholarship:
+  - text: "We offer financial aid to our students on a need and merit basis. The options that are currently available include partial scholarships for Moringa Prep and student loans for Moringa Core. For more information on financial aid please visit our financial aid page https://moringaschool.com/financial-aid/."
+
+  utter_Location:
+  - text: "Moringa School Physical address is: Ngong Lane, Ngong Lane Plaza, 1st Floor, Nairobi Kenya.
+      Day classes are conducted on Campus.As we leverage on Technology, we offer have virtual classes 
+      with flexibility to accommodate students across the country and across the world.
+      Thank you for your query. At the moment, our offices are only in Nairobi. 
+      However, our programs have an online option that enables you to study from anywhere in the country/Continent."
+
+  utter_capstone_project:
+  - text: "In the final Phase  of learning (Phase 5), learners will carry out the Capstone project 
+      as the final project. Learners work individually or in groups to apply the technical
+      and soft skills training and knowledge. Students are required to create a large-scale
+      data science and/or machine learning project. This final project provides an
+      in-depth opportunity for you to demonstrate your learning accomplishments."
+
+
+  utter_courseWork:
+  - text: "The coursework for your program can be found in the course catalog on our website."
+
+  utter_Accommodation:
+  - text: "Moringa School does not offer accommodation.Student hostels & houses for rent are available within the environs, based on one's preference."
+
+
+  utter_goodbye:
+  - text: "Goodbye! If you have any more questions, feel free to ask."
+
+  utter_bot_challenge:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_outofscope:
+  - text : "Thank you for contacting Moringa. Check out more information on our courses here: https://moringaschool.com/. Reach out to our customer service team through 0205002167."
+
+
+# session_config:
+#   session_expiration_time: 60
+#   carry_over_slots_to_new_session: true

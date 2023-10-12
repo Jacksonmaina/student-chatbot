@@ -1,0 +1,103 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: say  greetings everytime user says hello
+  steps:
+  - intent: Greetings
+  - action: utter_Greetings
+
+- rule: say  which courses  is offered anytime users ask courses
+  steps:
+  - intent: Courses
+  - action: utter_Courses
+
+- rule: say  which career opportunities  is offered anytime users ask careers
+  steps:
+  - intent: career_opportunities
+  - action: utter_career_opportunities
+
+- rule: say  learning mode offered anytime learning mode is asked
+  steps:
+  - intent: learning_mode
+  - action: utter_learning_mode
+
+- rule: say  curriculum anytime user says about curriculum
+  steps:
+  - intent: curriculum
+  - action: utter_curriculum
+
+- rule: say  Requirement required anytime user ask about Requirement
+  steps:
+  - intent: Requirements
+  - action: utter_Requirements
+
+- rule: say placementsupport anytime user ask abour placementsupport
+  steps:
+  - intent: placementsupport
+  - action: utter_placementsupport
+
+- rule: say application anytime user ask about application
+  steps:
+  - intent: application
+  - action: utter_application
+
+- rule: say  Deferment anytime user ask about Deferment
+  steps:
+  - intent: Deferment
+  - action: utter_Deferment
+
+- rule: say  intake anytime  user ask about intakes
+  steps:
+  - intent: intake
+  - action: utter_intake
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: say  cost anytime use ask about cost
+  steps:
+  - intent:  cost
+  - action:  utter_cost
+
+- rule: say scholarship user anytime user ask about scholarship
+  steps:
+  - intent: scholarship
+  - action: utter_scholarship
+
+- rule: say Location anytime user ask about locations
+  steps:
+  - intent: Location
+  - action: utter_Location
+
+- rule: say courseWork anytime user ask about courseWork
+  steps:
+  - intent: courseWork
+  - action: utter_courseWork
+
+- rule: say  Accommodation anytime user ask about Accomadation and hostels 
+  steps:
+  - intent: Accommodation
+  - action: utter_Accommodation
+
+- rule: say  outofscope  anytime user ask outofscope question
+  steps:
+  - intent: outofscope
+  - action: utter_outofscope
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge

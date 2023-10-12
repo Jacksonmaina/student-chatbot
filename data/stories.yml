@@ -1,0 +1,137 @@
+version: "3.1"
+
+stories:
+
+
+- story: Greeting path
+  steps:
+  - intent: Greetings
+  - action: utter_Greetings
+
+
+- story: Courses path
+  steps:
+  - intent: Courses
+  - action: utter_Courses
+
+- story: learning path
+  steps:
+  - intent: learning_mode
+  - action: utter_learning_mode
+
+- story: curriculum path
+  steps:
+  - intent: curriculum
+  - action: utter_curriculum
+
+- story: Requirements path
+  steps:
+  - intent: Requirements  
+  - action: utter_Requirements
+
+- story: placementsupport path
+  steps:
+  - intent: placementsupport
+  - action: utter_placementsupport
+
+- story: application path
+  steps:
+  - intent: application
+  - action: utter_application
+
+- story: Duration path
+  steps:
+  - intent: Duration
+  - action: utter_Duration
+
+- story: career_opportunities path
+  steps:
+  - intent: career_opportunities
+  - action: utter_career_opportunities
+
+
+- story: Deferment path
+  steps:
+  - intent: Deferment
+  - action: utter_Deferment
+
+- story: intake path
+  steps:
+  - intent: intake
+  - action: utter_intake
+
+- story: cost path
+  steps:
+  - intent: cost
+  - action: utter_cost
+
+- story: scholarship path
+  steps:
+  - intent: scholarship
+  - action: utter_scholarship
+
+- story: Location path
+  steps:
+  - intent: Location
+  - action: utter_Location
+
+- story: courseWork path
+  steps:
+  - intent: courseWork
+  - action: utter_courseWork
+
+- story: Accommodation path
+  steps:
+  - intent: Accommodation
+  - action: utter_Accommodation
+
+- story: outofscope path 
+  steps:
+  - intent: outofscope
+  - action: utter_outofscope
+
+- story: goodbye path
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: hardware_requirement path
+  steps:
+  - intent: hardware_requirement
+  - action: utter_hardware_requirement
+
+- story: capstone_project path
+  steps:
+  - intent: capstone_project
+  - action: utter_capstone_project
+
+- story: admission_timelines path
+  steps:
+  - intent: admission_timelines
+  - action: utter_admission_timelines
+
+- story: data_science path
+  steps:
+  - intent: data_science
+  - action: utter_data_science
+
+- story: bot_challenge path
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- story: admission path
+  steps:
+  - intent: admission
+  - action: utter_admission
+
+- story: transport path
+  steps:
+  - intent: transport
+  - action: utter_transport
+
+
+- story: payment_mode path
+  steps:
+  - intent: payment_mode
+  - action: utter_payment_mode
